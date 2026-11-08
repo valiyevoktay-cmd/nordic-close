@@ -1,0 +1,31 @@
+code,name,kind,statement,report_line,sort_order,is_intercompany
+1010,Cash and bank,ASSET,BS,cash,10,0
+1100,Trade receivables,ASSET,BS,trade_receivables,20,0
+1150,Intercompany receivables,ASSET,BS,ic_receivables,25,1
+1190,Unreconciled intercompany difference,ASSET,BS,ic_suspense,27,0
+1200,Inventory,ASSET,BS,inventory,30,0
+1300,Prepaid expenses and other current assets,ASSET,BS,other_current_assets,40,0
+1510,"Property, plant and equipment at cost",ASSET,BS,ppe,50,0
+1519,Accumulated depreciation,ASSET,BS,ppe,55,0
+2010,Trade payables,LIABILITY,BS,trade_payables,60,0
+2050,Intercompany payables,LIABILITY,BS,ic_payables,65,1
+2100,Accrued expenses,LIABILITY,BS,accrued_expenses,70,0
+2150,Income tax payable,LIABILITY,BS,tax_payable,80,0
+2200,Long-term borrowings,LIABILITY,BS,borrowings_lt,90,0
+2210,Short-term borrowings,LIABILITY,BS,borrowings_st,95,0
+3010,Share capital,EQUITY,BS,share_capital,100,0
+3050,Retained earnings brought forward,EQUITY,BS,retained_earnings,110,0
+3090,Translation reserve,EQUITY,BS,translation_reserve,120,0
+4010,"Revenue, external",INCOME,PL,revenue,200,0
+4020,"Revenue, intercompany",INCOME,PL,ic_revenue,210,1
+5010,"Cost of goods sold, external",EXPENSE,PL,cogs,220,0
+5020,"Cost of goods sold, intercompany",EXPENSE,PL,ic_cogs,230,1
+6010,Personnel costs,EXPENSE,PL,personnel,240,0
+6020,Other operating expenses,EXPENSE,PL,other_opex,250,0
+6030,Depreciation,EXPENSE,PL,depreciation,260,0
+7010,Finance income,INCOME,PL,finance_income,270,0
+7020,Finance costs,EXPENSE,PL,finance_costs,280,0
+7030,Intercompany FX residual (consolidation),EXPENSE,PL,ic_fx_residual,285,0
+7040,Foreign exchange differences,EXPENSE,PL,fx_differences,290,0
+7090,Unreconciled intercompany difference (P&L),EXPENSE,PL,ic_pl_suspense,295,0
+8010,Income tax,EXPENSE,PL,income_tax,300,0

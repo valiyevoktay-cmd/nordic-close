@@ -1,0 +1,105 @@
+entity_code,local_code,local_name,group_code
+SE,1930,Företagskonto,1010
+SE,1510,Kundfordringar,1100
+SE,1660,Fordringar hos koncernföretag,1150
+SE,1460,Lager,1200
+SE,1790,Förutbetalda kostnader,1300
+SE,1220,Inventarier,1510
+SE,1229,Ackumulerade avskrivningar,1519
+SE,2440,Leverantörsskulder,2010
+SE,2460,Skulder till koncernföretag,2050
+SE,2990,Upplupna kostnader,2100
+SE,2510,Skatteskulder,2150
+SE,2350,Långfristiga skulder,2200
+SE,2393,Kortfristiga skulder,2210
+SE,2081,Aktiekapital,3010
+SE,2091,Balanserad vinst,3050
+SE,3010,Försäljning varor,4010
+SE,3071,Koncerninterna intäkter,4020
+SE,4010,Inköp varor,5010
+SE,4050,Koncerninterna inköp,5020
+SE,7010,Löner,6010
+SE,5010,Övriga externa kostnader,6020
+SE,7830,Avskrivningar,6030
+SE,8310,Ränteintäkter,7010
+SE,8410,Räntekostnader,7020
+SE,8330,Valutakursdifferenser,7040
+SE,8910,Skatt på årets resultat,8010
+NO,1920,Bankinnskudd,1010
+NO,1500,Kundefordringer,1100
+NO,1560,Fordringer på konsernselskap,1150
+NO,1400,Varelager,1200
+NO,1700,Forskuddsbetalte kostnader,1300
+NO,1200,Maskiner og anlegg,1510
+NO,1299,Akkumulerte avskrivninger,1519
+NO,2400,Leverandørgjeld,2010
+NO,2460,Gjeld til konsernselskap,2050
+NO,2900,Påløpte kostnader,2100
+NO,2500,Betalbar skatt,2150
+NO,2200,Langsiktig gjeld,2200
+NO,2300,Kortsiktig gjeld,2210
+NO,2000,Aksjekapital,3010
+NO,2050,Annen egenkapital,3050
+NO,3000,Salgsinntekt,4010
+NO,3100,Salgsinntekt konsern,4020
+NO,4000,Varekostnad,5010
+NO,4010,Varekjøp konsern,5020
+NO,5000,Lønn,6010
+NO,6300,Annen driftskostnad,6020
+NO,6000,Avskrivning,6030
+NO,8050,Renteinntekt,7010
+NO,8150,Rentekostnad,7020
+NO,8060,Valutagevinst og -tap,7040
+NO,8300,Skattekostnad,8010
+DK,5600,Bank,1010
+DK,5000,Debitorer,1100
+DK,5100,Tilgodehavender hos koncernselskaber,1150
+DK,3000,Varelager,1200
+DK,5400,Periodeafgrænsningsposter,1300
+DK,4000,Driftsmateriel,1510
+DK,4090,Akkumulerede afskrivninger,1519
+DK,7000,Kreditorer,2010
+DK,7100,Gæld til koncernselskaber,2050
+DK,7300,Skyldige omkostninger,2100
+DK,7400,Skyldig selskabsskat,2150
+DK,8000,Langfristet gæld,2200
+DK,8100,Kortfristet gæld,2210
+DK,9000,Selskabskapital,3010
+DK,9100,Overført resultat,3050
+DK,1000,Omsætning,4010
+DK,1100,Omsætning koncern,4020
+DK,2000,Vareforbrug,5010
+DK,2100,Vareforbrug koncern,5020
+DK,2500,Lønomkostninger,6010
+DK,2600,Andre driftsomkostninger,6020
+DK,2700,Afskrivninger,6030
+DK,3500,Renteindtægter,7010
+DK,3600,Renteudgifter,7020
+DK,3700,Kursreguleringer,7040
+DK,3900,Skat af årets resultat,8010
+FI,1910,Pankkitilit,1010
+FI,1700,Myyntisaamiset,1100
+FI,1780,Saamiset konserniyrityksiltä,1150
+FI,1400,Vaihto-omaisuus,1200
+FI,1800,Siirtosaamiset,1300
+FI,1100,Koneet ja kalusto,1510
+FI,1190,Kertyneet poistot,1519
+FI,2870,Ostovelat,2010
+FI,2880,Velat konserniyrityksille,2050
+FI,2900,Siirtovelat,2100
+FI,2920,Tuloverovelka,2150
+FI,2500,Pitkäaikaiset lainat,2200
+FI,2600,Lyhytaikaiset lainat,2210
+FI,2000,Osakepääoma,3010
+FI,2100,Edellisten tilikausien voitto,3050
+FI,3000,Liikevaihto,4010
+FI,3100,Konsernimyynti,4020
+FI,4000,Ostot,5010
+FI,4100,Konserniostot,5020
+FI,6000,Palkat,6010
+FI,7000,Muut liiketoiminnan kulut,6020
+FI,6500,Poistot,6030
+FI,9500,Korkotuotot,7010
+FI,9600,Korkokulut,7020
+FI,9700,Kurssierot,7040
+FI,9900,Tuloverot,8010

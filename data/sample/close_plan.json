@@ -1,0 +1,116 @@
+{
+  "period": "2026-10",
+  "target_workday": 5,
+  "first_workday": "2026-11-02",
+  "tasks": [
+    {
+      "id": "fx",
+      "name": "Load ECB rates and check the closing rate",
+      "owner": "Anna Lund",
+      "reviewer": "Erik Nyman",
+      "days": 0.5,
+      "after": [],
+      "key_control": true
+    },
+    {
+      "id": "cutoff",
+      "name": "Entity cut-off and sub-ledger close",
+      "owner": "Mads Holm",
+      "reviewer": "Erik Nyman",
+      "days": 1.0,
+      "after": [],
+      "key_control": true
+    },
+    {
+      "id": "bank",
+      "name": "Bank reconciliations",
+      "owner": "Ingrid Haug",
+      "reviewer": "Erik Nyman",
+      "days": 1.0,
+      "after": [
+        "cutoff"
+      ],
+      "key_control": true
+    },
+    {
+      "id": "accruals",
+      "name": "Accruals and prepayments",
+      "owner": "Aino Virta",
+      "reviewer": "Anna Lund",
+      "days": 1.0,
+      "after": [
+        "cutoff"
+      ],
+      "key_control": false
+    },
+    {
+      "id": "ic_confirm",
+      "name": "Intercompany confirmation",
+      "owner": "Nina Berg",
+      "reviewer": "Anna Lund",
+      "days": 1.0,
+      "after": [
+        "cutoff"
+      ],
+      "key_control": true
+    },
+    {
+      "id": "translate",
+      "name": "Translate entities to SEK",
+      "owner": "Anna Lund",
+      "reviewer": "Erik Nyman",
+      "days": 0.5,
+      "after": [
+        "fx",
+        "bank",
+        "accruals"
+      ],
+      "key_control": true
+    },
+    {
+      "id": "eliminate",
+      "name": "Eliminate intercompany",
+      "owner": "Anna Lund",
+      "reviewer": "Erik Nyman",
+      "days": 0.5,
+      "after": [
+        "translate",
+        "ic_confirm"
+      ],
+      "key_control": true
+    },
+    {
+      "id": "flux",
+      "name": "Flux review and explanations",
+      "owner": "Nina Berg",
+      "reviewer": "Karin Roos",
+      "days": 1.0,
+      "after": [
+        "eliminate"
+      ],
+      "key_control": true
+    },
+    {
+      "id": "pack",
+      "name": "Reporting pack",
+      "owner": "Anna Lund",
+      "reviewer": "Karin Roos",
+      "days": 0.5,
+      "after": [
+        "flux"
+      ],
+      "key_control": false
+    },
+    {
+      "id": "signoff",
+      "name": "CFO sign-off",
+      "owner": "Karin Roos",
+      "reviewer": "Lars Ek",
+      "days": 0.5,
+      "after": [
+        "pack"
+      ],
+      "key_control": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+code,name,currency,country,is_parent,ownership_pct
+SE,Demo Sverige AB,SEK,SE,1,100
+NO,Demo Norge AS,NOK,NO,0,100
+DK,Demo Danmark ApS,DKK,DK,0,100
+FI,Demo Suomi Oy,EUR,FI,0,100
