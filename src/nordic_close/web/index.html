@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nordic close</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <div class="brand">
+      <h1>Nordic close</h1>
+      <p class="sub">Month-end close and consolidated reporting</p>
+    </div>
+    <div class="controls">
+      <label for="period">Period</label>
+      <select id="period"></select>
+      <span id="status-pill" class="pill" role="status" aria-live="polite"></span>
+      <button id="run" type="button">Run close</button>
+      <button id="export" type="button" class="secondary">Download Excel</button>
+    </div>
+  </header>
+
+  <form id="keyform" class="keybar" hidden>
+    <label for="apikey">API key</label>
+    <input id="apikey" type="password" autocomplete="off">
+    <button type="submit">Use key</button>
+  </form>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-overview" aria-controls="main" aria-selected="true" data-tab="overview">Overview</button>
+    <button role="tab" id="tab-statements" aria-controls="main" aria-selected="false" data-tab="statements">Statements</button>
+    <button role="tab" id="tab-entities" aria-controls="main" aria-selected="false" data-tab="entities">Entities</button>
+    <button role="tab" id="tab-controls" aria-controls="main" aria-selected="false" data-tab="controls">Controls</button>
+    <button role="tab" id="tab-variance" aria-controls="main" aria-selected="false" data-tab="variance">Budget variance</button>
+    <button role="tab" id="tab-fx" aria-controls="main" aria-selected="false" data-tab="fx">FX and runs</button>
+  </nav>
+
+  <main id="main" tabindex="-1" role="tabpanel" aria-live="polite"></main>
+  <p class="foot">Sample data is synthetic. Exchange rates are the ECB euro reference rates.</p>
+
+  <script src="app.js"></script>
+</body>
+</html>
