@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# local database and generated packs
+*.db
+*.db-journal
+out/
+
+# local configuration
+.env
+
+.DS_Store
